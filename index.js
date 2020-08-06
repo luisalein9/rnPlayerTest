@@ -1,6 +1,12 @@
+import React from 'react';
+import {requireNativeComponent, View} from 'react-native';
 
-import { NativeModules } from 'react-native';
-
-const { RNRnvideoplayer } = NativeModules;
-
-export default RNRnvideoplayer;
+const RNRnvideoplayerComponent = (props) =>{
+      return <RNRnvideoplayer {...props} />;
+    }
+  
+  
+  
+  var RNRnvideoplayer = requireNativeComponent('RNRnvideoplayer', RNRnvideoplayerComponent);
+  
+  module.exports = RNRnvideoplayerComponent;

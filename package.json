@@ -6,7 +6,7 @@
         "type": "git",
         "url": "git+https://github.com/luisalein9/rnPlayerTest.git"
     },
-    "name": "rnPlayerTest-android",
+    "name": "rn-native-ui-android-test",
     "version": "0.0.1",
     "dependencies": {
         "react": "16.13.1",
